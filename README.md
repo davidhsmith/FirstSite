@@ -20,3 +20,10 @@ Surprisingly that worked great on the image.  It is inserted and resized to fit 
 As an aside, the adapter seems to work awsome - I got full 1-Gigabyte transfer speeds using iperf3.
 
 
+## Jekyll static web page generator
+Jekyll is a static web page generator developed and used by Github.  Seems like a reasonable way to go so I installed it on BBLinux (Ubuntu 18.04 box).  First you install Ruby, the use the Ruby package manager, gem, to install the Jekyll application.  This worked, at least to a level that I could run *jekyll new portfolio* to create a simple directory structure.  Then I ran *jekyll serve* to create and serve a minimalist web site.
+
+Next step - how to install Jekyll on my windows 10 computer (VivoBook 14).
+
+1. Install Ruby from rubyinstallers.org.
+2. Install jekyll using the gem package manager.
